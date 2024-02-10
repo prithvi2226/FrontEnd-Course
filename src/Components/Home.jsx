@@ -29,7 +29,7 @@ const Home = () => {
 
                   <VStack width={"full"} alignItems={["center", "center"]}>
 
-                      <Heading children="LEARN WITH PRITHV!" size={'2xl'} color={"antiquewhite"} />
+                      <Heading children="LEARN WITH PASSION" size={'2xl'} color={"antiquewhite"} />
                       <Text children="" />
                       <Link to="/Main">
                           <Button size={"lg"} colorScheme='whiteAlpha'>

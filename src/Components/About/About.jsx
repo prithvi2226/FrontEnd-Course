@@ -34,14 +34,14 @@ const Founder = () => (
         <VStack>
             <Avatar src={link} 
                     boxSize={['40', '48']} />
-            <Text children="Co-Founder" 
+            <Text children="Code Writer" 
                   opacity={0.7} color={"antiquewhite"} />
         </VStack>
 
         <VStack justifyContent={'center'} alignItems={["center", "flex-start"]}>
-            <Heading children="PRITHVI PRATHAP" size={["md", "xl"]} color={"antiquewhite"}/>
+            <Heading children="PRITHVI" size={["md", "xl"]} color={"antiquewhite"}/>
             <Text textAlign={["center", "left"]}
-                  children={`Courses for Software development!`} color={"antiquewhite"} />
+                  children={`Courses for Software development`} color={"antiquewhite"} />
         </VStack>
 
     </Stack>
@@ -71,7 +71,7 @@ const About = () => {
       boxShadow={'lg'}
       bg={"blackAlpha.300"}
       h={"90vh"}>
-      <Heading children={"About US"}
+      <Heading children={"About Us"}
         textAlign={["center", "left"]}
         color={"antiquewhite"} />
       <Founder />
@@ -84,7 +84,7 @@ const About = () => {
 
         <Link to={"/Subscribe"}>
           <Button variant={"ghost"} colorScheme='purple' >
-            GET THE PRI PLAN
+            GET THE PRO PLAN
           </Button>
         </Link>
 
